@@ -33,5 +33,6 @@ public class Impares {
         System.out.println(gen_numeros(Impares::gen_impares, 7));
         System.out.println(gen_numeros(Impares::gen_cuadrados, 7));
         System.out.println(gen_pares2.apply(7));
+        System.out.println(gen_pares2.apply(10));
     }
 }
